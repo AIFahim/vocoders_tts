@@ -1,6 +1,5 @@
 import torch
 
-# checkpoint = torch.load("/home/asif/tts_all/coqui_tts/my_exp/coqui_vocoder/multibandmelgan_weights/best_model_296927.pth")
 checkpoint = torch.load("/home/asif/tts_all/coqui_tts/my_exp/coqui_vocoder/hifigan_weights/48_sr_model_weight/checkpoint_330000.pth")
 # print(checkpoint.keys())
 
